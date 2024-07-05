@@ -1,0 +1,655 @@
+# print("My name is Tanisha")
+# print(18042024)
+#walrus operator
+#jarvius virtual assistant
+#replit
+#external and built-in modules
+#Pip
+
+# print("Tannu Tannu")
+# print("good job Tannu")
+# print("100/100")
+# print(100/100)
+# print(100+100)
+# print(100*2)
+# #REPL - Read Evaluate Print Loop
+# print("Roses are red,\nViolets are blue,\nI am the best,\ncuz I love you")
+
+#n is a Escape sequence charater
+#Have # as comment
+#colours as syntax highlighting
+
+# """
+# n is a Escape sequence character/new line character
+# Have # as comment
+# colours as syntax highlighting
+# """
+#Put text between triple single quotes ''' or between triple double quotes """ to use as comments instead of #
+
+#Double quote charcter as \"Tannu Tannu\"
+#To put single quote, add \'hello
+# print("My name is Tanisha and I am 22 years old.")
+# print("I love to eat different types of food\nwhat do you like to do?")
+# print("Can we be \"besties\"\nor you like someone else?")
+# print("Can we be \"besties\"\nor you like someone\' else?")
+
+# print("Hello",18,10)
+# print("hello", 18, 10, sep="+", end="best best\n")
+# print("Hey, Sup?")
+#sep is a seperator and end put it at end of the print statement
+
+# a=1
+# print(a)
+# b="tannu"
+# print(b)
+#variables store data
+# w=1
+# x='true'
+# y="sweet"
+# z=None
+# print(w,x,y,z)
+
+# a1=22
+# print(a+a1)
+# c=True
+# d=None
+# e=2.2
+# f=complex(9,5)
+# print(f)
+#
+# print("the type of a is", type(a))
+# print("the type of b is", type(b))
+# print("the type of c is", type(c))
+# print("the type of d is", type(d))
+# print("the type of e is", type(e))
+# print("the type of f is", type(f))
+
+#Numeric=int(integer), float(decimal), complex(complex number}
+#text data = string
+#boolean data = true/false or yes/no
+#sequence data type = lists and tuples
+#tuples = immutable or unchangeable
+#lists = mutable or changeable
+#dictionary = key-value pairs
+
+# list1=[1,2,3,[-4,5],["apple,banana"],9,8,7,6]
+# print(list1)
+# tuple1=(23,27,3,(-43,85),("litchi,strawberry"),95,83,74,65)
+# print(tuple1)
+# dict1={"name":"Tannu", "age":23, "canVote":True}
+# print(dict1)
+
+#***Everything in Python is a object***
+
+# print(10+10)
+# print(10-4)
+# print(10*4)
+# print(10/2)
+# print(10//3)
+# print(40%3)
+# print(2**5)
+
+# find remainder in division using %
+# remove decimal using //
+# exponential operator is **
+
+#New Example for given input
+# print("Hello there!!! Thank you for using Tannu's Calculator")
+# a=20
+# b=50
+# ans1=a+b
+# print("Addition of a and b is", ans1)
+# ans2=a-b
+# print("Substraction of b from a is", ans2)
+# ans3=a*b
+# print("Multiplication of a and b is", ans3)
+# ans4=a/b
+# print("Division of a by b is", ans4)
+# ans5=a//b
+# print("The whole number is", ans5)
+# ans6=a%b
+# print("The remainder is",ans6)
+# ans7=a**b
+# print("The exponential solution is", ans7)
+#
+# #New Example with user input
+# print("Hello there!!! Welcome to Tanisha's Calculator")
+# name=input("Enter your name\n")
+# age=int(input("Enter your age\n"))
+# A=int(input("Enter your first number"))
+# B=int(input("Enter your second number"))
+# sol1=A+B
+# print("The addition of", A, "and", B, "is", sol1)
+# sol2=A-B
+# print("The subtraction of", A, "from", B, "is", sol2)
+# sol3=A*B
+# print("The multiplication of", A, "and", B, "is", sol3)
+# sol4=A/B
+# print("The division is", A, "by", B, "is", sol4)
+# sol5=A//B
+# print("The whole number for",A, "and", B, "is", sol5)
+# sol6=A%B
+# print("The remainder of", A, "and", B, "is", sol6)
+# sol7=A**B
+# print("The exponential solution of", A, "and", B, "is", sol7)
+
+#Typecasting=Conversion of one data type to another
+#Explicit Typecasting= Typecasting done by programmer, command given by programmer
+#Implicit Typecasting= Typecasting done by python itself
+#Implicit Typecasting= Python converts smaller data type to a higher data type to prevent data loss
+
+# m="26"
+# n="78"
+# print(int(m)+int(n))
+#
+# o=25.5
+# p=24
+# q=o+p
+# print(q)
+# print(type(q))
+#
+# i=float(input("Enter your first decimal number\n"))
+# j=float(input("Enter your second decimal number\n"))
+# print(i+j)
+
+#Anything inside a double or single quotes are strings
+#In python a string is like an array of characters, starts with zero always...and goes 0,1,2,3,4,etc (line 167)
+
+# name="Tanisha"
+# print("I love you",name)
+# print("He said,\"I want to eat an apple\"")
+# apple='I love "apples"'
+# print(apple)
+# print("Hey! My name is Tanisha.\nI am 23 years old.\nHow old are you??")
+# print("""Hey! My name is Tanisha.
+# I am 23 years old.
+# How old are you??""")
+# print(name[0])
+# #print(name[8]) throws an error
+# #For loop to segregate characters in a string.
+#
+# print("Let's use a For Loop")
+# for character in name:
+#     print(character)
+#
+# for character in apple:
+#     print(character)
+
+# names="Tanisha, Sahil"
+# print(names[0:8])
+# print(names[9:14])
+# print(names[:5])
+# print(len(names))
+
+#prints characters from 0 to (n-1).
+#If zero or desired starting character number not specified, python assumes it to start ftrom zero.
+#len function to determine length of string
+# fruit="strawberry"
+# len1=len(fruit)
+# print("Strawberry is a", len1, "letter word.")
+#
+# print(fruit[0:-6])
+# print(fruit[-9:-6])
+# print(fruit[-6:-10])
+#line 192 printed as print(fruit[-9:len(fruit)-6])
+#line 193 shows no output
+#including 0 but not n(end stated character number.) Prints till (n-1)
+
+# nm=("Tanisha !!!!!!!!!!! Sahil !!!!!!!!!!!")
+# print(nm[-6:-2])
+#Rashmika (8) goes from 1 (8-7) to 4 (8-3) and gives output from 1(a) to 4(m)
+#strings are immutable in python
+#rstrip only removes trailing characters (!s), not the leading ones
+
+# print(len(nm))
+# print(nm.upper())
+# print(nm.lower())
+# print(nm.rstrip("!"))
+# print(nm.replace("Tanisha","Tannu"))
+# print(nm.replace("Sahil","Aasie"))
+# print(nm.split(" "))
+# blogHeading="introduction to javascript!!!"
+# print(blogHeading.capitalize())
+#capitalize turns first letter to capital and everything to lower cases
+
+# print(blogHeading.center(50))
+# print(len(blogHeading))
+# print(len(blogHeading.center(50)))
+# print(nm.count("!"))
+# print(blogHeading.endswith("!!!"))
+# str1="Welcome to the Console!!!"
+# print(str1.endswith("to",4,10))
+#splice the string using comma and character position
+#you can overwrite a variable in python*****
+#Find function gives first occurence of given string word. If string word absent, then displays -1
+#Index works same as find function. But gives error if string word not found
+# str1="He's name is Dan. He is an honest man."
+# print(str1.find("is"))
+# print(str1.find("shh"))
+# print(str1.index("shh"))
+
+# str1="WelcomeToTheConsole"
+# print(str1.isalnum())
+# #isalnum detects only alphanumeric characters. Gives false if space is present.
+# #isalpha detects only alphabet character. Gives false if numbers present.
+# str1="Welcome3636"
+# print(str1.isalpha())
+# str1="welcometotheconsole"
+# print(str1.islower())
+# #islower detects if all charactersin the string are in lower case
+# #isprintable detects if all characters are printable (displayed in output), else false
+# #\n is a not prinatable character, it doesn't get displayed in output
+# str1="We wish you a marry Christmas\n"
+# print(str1.isprintable())
+# #isspace detects white spaces in string (gives true if only spaces are present, else false). White spaces can be created by space bar or tab.
+# str1="      " #using spacebar
+# print(str1.isspace())
+# str2="  "  #using tab
+# print(str2.isspace())
+# #istitle detects if 1st letter of all words in the string are capital. If yes, then true, else false
+# str1="World Health Organization"
+# print(str1.istitle())
+# str1="To kill a Mocking Bird"
+# print(str1.istitle())
+# #isupper detects if all letters in the string are in upper case
+# str1="APPLES AND BANANAS"
+# print(str1.isupper())
+# #startswith is like endswith....true if the string starts with given character, else false
+# str1="Python is interpreted language."
+# print(str1.startswith("Python"))
+# #swapcase converts lower case to upper case and vice versa
+# str1="Python is an Interpreted Language."
+# print(str1.swapcase())
+# #Title() helps in turning the string into title case, thus making 1st letters of each word capital in the string
+# str1="His name is Dan. Dan is a honest man."
+# print(str1.title())
+
+#If Else Statements
+# a=int(input("What is your age: \n"))
+# print("Your age is:", a)
+# if(a>18):
+#     print("You  can drive.")
+# else:
+#     print("You cannot drive.")
+
+#space before else is called indentation. Used for entering inside if or else
+#Conditional Statements = <,>,<=,>=,==, !+ (not equal to) - boolean type
+# print(a>18)
+# print(a<=18)
+# print(a==18)
+# print(a!=18)
+
+# applePrice=int(input("What is the cost of apples\n"))
+# budget=200
+# if(applePrice<=budget):
+#     print("Alexa, Add 1 kg of apples to the cart.")
+# else:
+#     print("Alexa, do not add Apples to the cart")
+
+# num=int(input("What is the number\n"))
+# if(num < 0):
+#     print("Number is Negative.")
+# elif(num == 0):
+#     print("Number is Zero.")
+# elif(num == 999):
+#     print("Number is Special")
+# else:
+#     print("Number is Positive.")
+
+# num=int(input("Enter number\n"))
+# if(num<0):
+#     print("Number is Negative.")
+# elif(num>0):
+#     if(num<=10):
+#         print("Number between 1 to 10")
+#     elif(num>10 and num<=20):
+#         print("Number between 11 and 20")
+#     else:
+#         print("Number is greater than 20")
+# else:
+#     print("Number is zero.")
+
+# import time
+# timeNow = time.strftime('%H:%M:%S')
+# print(timeNow)
+# timeNow1 = int(time.strftime('%H'))
+# print(timeNow1)
+# timeNow = time.strftime('%M')
+# print(timeNow)
+# timeNow = time.strftime('%S')
+# print(timeNow)
+# if(timeNow1 > 0 and timeNow1 < 12):
+#     print("Good Morning Sir")
+# elif(timeNow1 > 12 and timeNow1 < 16):
+#     print("Good Afternoon Sir")
+# elif(timeNow1 > 16 and timeNow < 19):
+#     print("Good Evening Sir")
+# else:
+#     print("Good Night Sir")
+
+# x = int(input("Enter your number:\n"))
+# match x:
+#     case 0:
+#         print("x is zero.")
+#     case 4:
+#         print("x is four.")
+#     case _ if x!=90:
+#         print(x, "is not 90")
+#     case _ if x!=34:
+#         print(x, "is not 34.")
+#     case _ :
+#         print(x, "is a whole number.")
+
+# x = int(input("Enter your number:\n"))
+# match x:
+#     case 0:
+#         print("x is zero.")
+#     case 4 if x % 2 == 0:
+#         print("x matches case 4 and is divisible by 2.")
+#     case 3 if x % 3 == 0:
+#         print("x matches case 3 and is divisible by 3.")
+#     case 5 if x < 10:
+#         print("x is lesser than 10")
+#     case _ :
+#         print(x, "is a whole number.")
+
+#Loops and For Loops
+# Loops work iteration by iteratons
+# Lists to Words to Letters
+# Range goes from 0 to n-1 if 1 parameter given
+# Range goes from a to b-1 if 2 parameters (a,b) given
+# Range has 3 functions: start, stop and step
+
+# name = 'Tanisha'
+# for letter in name:
+#     print(letter)
+#     if(letter == "a"):
+#         print("Blah blahh.")
+
+
+# colors = ["Red", "Blue", "Green", "Yellow", "Black", "Purple"]
+# for color in colors:
+#     print(color)
+    # if(color == "Blue"):
+    #     print("My favourite color is blue.")
+
+# colors = ["Red", "Blue", "Green", "Yellow", "Black", "Purple"]
+# for color in colors:
+#     print(color)
+#     for letter in color:
+#         print(letter)
+
+# for number in range(5):
+#     print(number)
+
+# for number in range(1,15):
+#     print(number)
+
+# for number in range(1,20001):
+#     print(number)
+
+# for number in range(0,20,3):
+#     print(number)
+#prints multiplication table
+
+# i = 0
+# while(i<3):
+#     print(i)
+#     i = i + 1
+
+# i = 5
+# while(i>0):
+#     print(i)
+#     i = i - 1
+
+# num = int(input("Enter your number\n"))
+# while(num<=100):
+#     num = int(input("Enter your number\n"))
+#     print("Loop is successful.")
+# else:
+#     print("Loop is stopped or complete.")
+
+# Do While Loop Emulation to be Done
+
+# for i in range(12):
+#     print(i*5)
+#     if(i == 8):
+#        break
+# print("The loop broke.")
+
+# for i in range(12):
+#     if(i == 8):
+#         print("Skip the iteration.")
+#         continue
+#     print(i*5)
+
+# i = 0
+# while True:
+#     print(i)
+#     i = i + 1
+#     if(i % 100 == 0):
+#         break
+
+# Functions
+# Built-in and used-defined functions (2 types)
+# Some built-in functions are - min(), max(), type(), range()
+# Indentation can be put by pressing tabs.
+
+# def calculateGmean(a,b):
+#     mean = (a*b)/(a+b)
+#     print(mean)
+#
+# def isGreater(a,b):
+#     if(a>b):
+#         print("First number is greater.")
+#     else:
+#         print("Second number is greater or equal.")
+#
+# def isLesser(a,b):
+#     pass
+#
+# a = 9
+# b = 8
+# isGreater(a,b)
+# calculateGmean(a,b)
+#
+# c = 8
+# d = 7
+# isGreater(c,d)
+# calculateGmean(c,d)
+
+# import random
+#
+# names_ash=input("Enter the names and they should be seperated by commans \n")
+#
+# names=names_ash.split(", ")
+#
+# length=len(names)
+#
+# random_choice=random.randint(0,length-1)
+# print(random_choice)
+#
+# payee=names[random_choice]
+# print (payee)
+
+# num = int(input("Enter the value\n"))
+# for i in range(1,num+1):
+#     if(i % 3 == 0):
+#         print("fizz")
+#     elif(i % 5 == 0):
+#         print("buzz")
+#     elif(i % 3 and 5 == 0):
+#         print("fizzbuzz")
+#     else:
+#         print(i)
+
+# Heightstr = input("Enter all heights\n")
+# print(type(Heightstr)) #string
+# Heights = Heightstr.split()
+# print(Heights)
+# print(type(Heights)) #changed to list
+#
+# for i in range(len(Heights)):
+#     print(i)
+#     print(type(i))
+#     Heights[i] = int(Heights[i]) #changed to integer
+#     print(Heights[i])
+#     print (" Now we have assigned the position",i ,"to the actual values ",Heights[i])
+#
+# print(type(Heights[i])) #Integer
+# print(type(Heights)) #List
+#
+# total = sum(Heights)
+# print(type(total))
+# print("The Total Height is ",total)
+# Average = total/len(Heights)
+# print(Average)
+
+# Heightstr = input("Enter all heights\n") #string
+# Height = Heightstr.split() #List
+# print(Height)
+#
+# for i in range(len(Height)):
+#     Height[i] = int(Height[i]) #integer
+#     print(Height[i])
+#     print(type(Height[i]))
+#
+# total = sum(Height)
+# print(total)
+# Average = total/len(Height)
+# print(Average)
+
+# def is_prime(n):
+#     """Check if a number is a prime number."""
+#     if n <= 1:
+#         return False
+#     if n == 2:
+#         return True  # 2 is the only even prime number
+#     if n % 2 == 0:
+#         return False  # Other even numbers are not prime
+#     # Check for factors from 3 to sqrt(n)
+#     for i in range(3, int(n**0.5) + 1, 2):
+#         if n % i == 0:
+#             return False
+#     return True
+#
+# def print_primes(start, end):
+#     """Print all prime numbers in a given range."""
+#     for num in range(start, end + 1):
+#         if is_prime(num):
+#             print(num)
+#
+# # Example usage
+# start = 10
+# end = 50
+# print("Prime numbers between {start} and {end} are:")
+# print_primes(start, end)
+
+# def Find_Prime(n):
+#     if(n < 1):
+#         return False
+#     if(n == 2):
+#         return True
+#     if(n % 2 == 0):
+#         return False
+#     for i in range(3,int(n**0.5)+1,2):     #start=3, end=sqrt of n+1, step=2
+#         if(n % i == 0):                 #If n % i == 0 evaluates to True, it means that i is a divisor of n (i.e., n can be divided by i with no remainder).
+#            return False                 # If i is a divisor of n and i is not 1 or n, it means n is not a prime number because it has a divisor other than 1 and itself.
+#     else:
+#         return True
+#
+# def PrintPrimes(start, end):
+#     for num in range(start,end+1):
+#       if(Find_Prime(num)):
+#         print(num)
+#
+# start = int(input("Enter Starting Number of Range\n"))
+# end = int(input("Enter Ending Number of Range\n"))
+# print("Prime numbers between", start, "and", end, "are")
+# PrintPrimes(start,end)
+
+# list1 = []
+# var = input("Enter the number of elements\n")
+# list = var.split()
+# print(list)
+# for char in list:
+#     num = int(char)
+#     list1.append(num)
+#     print(list1)
+
+# list1 = ['apple','banana','grapes']
+# print(list1)
+# print(type(list1))
+# list1.append('strawberry')
+# print(list1)
+
+# import random
+#
+# print(" Password Generator ")
+#
+# alphabets = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
+# symbols = ['!','@','#','$','%','^','&','*','(',')','_','+']
+# numbers = ['1','2','3','4','5','6','7','8','9','0']
+#
+# first_input = int (input("How many alphabets you want in the password ? \n "))
+# second_input = int (input("How many symbols would you like ? \n"))
+# third_input = int (input("How many numbers would you like ? \n"))
+#
+# password = []
+#
+# for i in range(1, first_input+1):
+#     random_i = random.choice(alphabets)
+#     password.append(random_i)
+#     # print(password)
+#
+# for i in range(1, second_input+1):
+#     random_i = random.choice(symbols)
+#     password.append(random_i)
+#     # print(password)
+#
+# for i in range(1, third_input+1):
+#     random_i = random.choice(numbers)
+#     password.append(random_i)
+#     # print(password)
+#
+# random.shuffle(password)
+# print(password)
+#
+# dummy = " "
+# for val in password:
+#     # val += dummy
+#     print("Value is", val)
+#     dummy += val
+# print("Password is", dummy)
+
+#
+# def split_string(x):
+#     gene1 = x.split(',')
+#     print(gene1)
+#     for i in gene1:
+#         gene2 = i.strip()
+#         print(gene2)
+#
+# def remove_Chars(a,b,c):
+#     rem = a.replace(b,c)
+#     return rem
+# #
+# #
+# def DeDuplicates(z):
+#     splitter = z.split(",")
+#     result = []
+#     repeat = set()
+#     for i in splitter:
+#         if i not in repeat:
+#             result.append(i)
+#             repeat.add(i)
+#     fin_result = ",".join(result)
+#     return fin_result
+#
+#
+# val = "FBgn0011701 (Repo_Cell),  FBgn0003944 (Ubx_Cell),  FBgn0015524 (Otp_Cell),  FBgn0000659 (fkh_NAR),  FBgn0040318 (Hgtx_Cell),  FBgn0052105_2 (CG32105_SOLEXA),  FBgn0008636 (Hbn_Cell),  FBgn0038852 (CG7056_Cell),  FBgn0052105 (CG32105_Cell),  FBgn0004863_2 (C15_SOLEXA),  FBgn0250756_2 (CG12361_SOLEXA),  FBgn0000014_3 (AbdA_SOLEXA),  FBgn0003944_3 (Ubx_SOLEXA),  FBgn0002941 (Slou_Cell),  FBgn0038833 (CG15696_Cell),  FBgn0040318_2 (Hgtx_SOLEXA),  FBgn0036274_2 (CG4328_SOLEXA),  FBgn0038833_2 (CG15696_SOLEXA),  FBgn0038852_2 (CG7056_SOLEXA),  FBgn0000095 (Antp_Cell),  FBgn0000095_3 (Antp_SOLEXA),  FBgn0026411 (Lim1_Cell),  FBgn0000061 (Al_Cell),  FBgn0030058 (CG11294_Cell),  FBgn0054031_2 (CG34031_SOLEXA),  FBgn0028996 (onecut_Cell),  FBgn0053980 (CG33980_Cell),  FBgn0000014 (AbdA_Cell),  FBgn0026411_2 (Lim1_SOLEXA),  FBgn0000251_3 (Cad_SOLEXA),  FBgn0053980_2 (CG33980_SOLEXA),  FBgn0053980_4 (CG33980_SOLEXA_2_10),  FBgn0011701_2 (Repo_SOLEXA),  FBgn0001269 (Inv_Cell),  FBgn0001170_2 (H2.0_SOLEXA),  FBgn0250756 (CG12361_Cell),  FBgn0002023_2 (Lim3_SOLEXA),  FBgn0002522 (Lab_Cell),  FBgn0030058_2 (CG11294_SOLEXA),  FBgn0000611_2 (exd_FlyReg),  FBgn0000251 (Cad_Cell),  FBgn0001170 (H2.0_Cell),  FBgn0002522_2 (Lab_SOLEXA),  FBgn0039905 (CG2052_SANGER_2.5),  FBgn0036274 (CG4328_Cell),  FBgn0000577_3 (En_SOLEXA),  FBgn0001077_3 (Ftz_SOLEXA),  FBgn0003267_2 (Ro_SOLEXA),  FBgn0029775 (CG4136_Cell),  FBgn0039350 (jigr1_SANGER_5),  FBgn0029775_2 (CG4136_SOLEXA),  FBgn0013751 (Awh_Cell),  FBgn0004870_2 (bab1_SANGER_5)"
+# red = split_string(val)
+# print(red)
+# print(remove_Chars(red,"_","    "))
+
+
